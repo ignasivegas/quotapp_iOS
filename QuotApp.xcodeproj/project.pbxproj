@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC886AC91954C1920036C5FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC886AC81954C1920036C5FF /* Foundation.framework */; };
+		FC886ACB1954C1920036C5FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC886ACA1954C1920036C5FF /* CoreGraphics.framework */; };
+		FC886ACD1954C1920036C5FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC886ACC1954C1920036C5FF /* UIKit.framework */; };
+		FC886AD31954C1920036C5FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC886AD11954C1920036C5FF /* InfoPlist.strings */; };
+		FC886AD51954C1920036C5FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC886AD41954C1920036C5FF /* main.m */; };
+		FC886AD91954C1920036C5FF /* IVPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC886AD81954C1920036C5FF /* IVPAppDelegate.m */; };
+		FC886ADB1954C1920036C5FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC886ADA1954C1920036C5FF /* Images.xcassets */; };
+		FC886AE21954C1920036C5FF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC886AE11954C1920036C5FF /* XCTest.framework */; };
+		FC886AE31954C1920036C5FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC886AC81954C1920036C5FF /* Foundation.framework */; };
+		FC886AE41954C1920036C5FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC886ACC1954C1920036C5FF /* UIKit.framework */; };
+		FC886AEC1954C1920036C5FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC886AEA1954C1920036C5FF /* InfoPlist.strings */; };
+		FC886AEE1954C1920036C5FF /* QuotAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC886AED1954C1920036C5FF /* QuotAppTests.m */; };
+		FC886AFF1955A1D10036C5FF /* IVPHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC886AFD1955A1D10036C5FF /* IVPHomeViewController.m */; };
+		FC886B001955A1D10036C5FF /* IVPHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC886AFE1955A1D10036C5FF /* IVPHomeViewController.xib */; };
+		FC886B091957163F0036C5FF /* Q-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = FC886B071957163F0036C5FF /* Q-Button.png */; };
+		FC886B0A1957163F0036C5FF /* Q-Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC886B081957163F0036C5FF /* Q-Button@2x.png */; };
+		FC886B0E19573A7C0036C5FF /* IVPQuoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC886B0C19573A7C0036C5FF /* IVPQuoteViewController.m */; };
+		FC886B0F19573A7C0036C5FF /* IVPQuoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC886B0D19573A7C0036C5FF /* IVPQuoteViewController.xib */; };
+		FC886B1219573AC40036C5FF /* IVPQuoteModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FC886B1119573AC40036C5FF /* IVPQuoteModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC886AE51954C1920036C5FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC886ABD1954C1920036C5FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC886AC41954C1920036C5FF;
+			remoteInfo = QuotApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC886AC51954C1920036C5FF /* QuotApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuotApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC886AC81954C1920036C5FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC886ACA1954C1920036C5FF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC886ACC1954C1920036C5FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC886AD01954C1920036C5FF /* QuotApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuotApp-Info.plist"; sourceTree = "<group>"; };
+		FC886AD21954C1920036C5FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC886AD41954C1920036C5FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC886AD61954C1920036C5FF /* QuotApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuotApp-Prefix.pch"; sourceTree = "<group>"; };
+		FC886AD71954C1920036C5FF /* IVPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IVPAppDelegate.h; sourceTree = "<group>"; };
+		FC886AD81954C1920036C5FF /* IVPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IVPAppDelegate.m; sourceTree = "<group>"; };
+		FC886ADA1954C1920036C5FF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC886AE01954C1920036C5FF /* QuotAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuotAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC886AE11954C1920036C5FF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FC886AE91954C1920036C5FF /* QuotAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuotAppTests-Info.plist"; sourceTree = "<group>"; };
+		FC886AEB1954C1920036C5FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC886AED1954C1920036C5FF /* QuotAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuotAppTests.m; sourceTree = "<group>"; };
+		FC886AFC1955A1D10036C5FF /* IVPHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IVPHomeViewController.h; sourceTree = "<group>"; };
+		FC886AFD1955A1D10036C5FF /* IVPHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IVPHomeViewController.m; sourceTree = "<group>"; };
+		FC886AFE1955A1D10036C5FF /* IVPHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IVPHomeViewController.xib; sourceTree = "<group>"; };
+		FC886B071957163F0036C5FF /* Q-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Q-Button.png"; sourceTree = "<group>"; };
+		FC886B081957163F0036C5FF /* Q-Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Q-Button@2x.png"; sourceTree = "<group>"; };
+		FC886B0B19573A7C0036C5FF /* IVPQuoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IVPQuoteViewController.h; sourceTree = "<group>"; };
+		FC886B0C19573A7C0036C5FF /* IVPQuoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IVPQuoteViewController.m; sourceTree = "<group>"; };
+		FC886B0D19573A7C0036C5FF /* IVPQuoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IVPQuoteViewController.xib; sourceTree = "<group>"; };
+		FC886B1019573AC40036C5FF /* IVPQuoteModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IVPQuoteModel.h; sourceTree = "<group>"; };
+		FC886B1119573AC40036C5FF /* IVPQuoteModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IVPQuoteModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC886AC21954C1920036C5FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC886ACB1954C1920036C5FF /* CoreGraphics.framework in Frameworks */,
+				FC886ACD1954C1920036C5FF /* UIKit.framework in Frameworks */,
+				FC886AC91954C1920036C5FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC886ADD1954C1920036C5FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC886AE21954C1920036C5FF /* XCTest.framework in Frameworks */,
+				FC886AE41954C1920036C5FF /* UIKit.framework in Frameworks */,
+				FC886AE31954C1920036C5FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC886ABC1954C1920036C5FF = {
+			isa = PBXGroup;
+			children = (
+				FC886ACE1954C1920036C5FF /* QuotApp */,
+				FC886AE71954C1920036C5FF /* QuotAppTests */,
+				FC886AC71954C1920036C5FF /* Frameworks */,
+				FC886AC61954C1920036C5FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC886AC61954C1920036C5FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC886AC51954C1920036C5FF /* QuotApp.app */,
+				FC886AE01954C1920036C5FF /* QuotAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC886AC71954C1920036C5FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC886AC81954C1920036C5FF /* Foundation.framework */,
+				FC886ACA1954C1920036C5FF /* CoreGraphics.framework */,
+				FC886ACC1954C1920036C5FF /* UIKit.framework */,
+				FC886AE11954C1920036C5FF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC886ACE1954C1920036C5FF /* QuotApp */ = {
+			isa = PBXGroup;
+			children = (
+				FC886B021956F8120036C5FF /* Resources */,
+				FC886AF91954C1B90036C5FF /* Models */,
+				FC886AF81954C1AF0036C5FF /* Controllers */,
+				FC886AF71954C19F0036C5FF /* Views */,
+				FC886AD71954C1920036C5FF /* IVPAppDelegate.h */,
+				FC886AD81954C1920036C5FF /* IVPAppDelegate.m */,
+				FC886ADA1954C1920036C5FF /* Images.xcassets */,
+				FC886ACF1954C1920036C5FF /* Supporting Files */,
+			);
+			path = QuotApp;
+			sourceTree = "<group>";
+		};
+		FC886ACF1954C1920036C5FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC886AD01954C1920036C5FF /* QuotApp-Info.plist */,
+				FC886AD11954C1920036C5FF /* InfoPlist.strings */,
+				FC886AD41954C1920036C5FF /* main.m */,
+				FC886AD61954C1920036C5FF /* QuotApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC886AE71954C1920036C5FF /* QuotAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC886AED1954C1920036C5FF /* QuotAppTests.m */,
+				FC886AE81954C1920036C5FF /* Supporting Files */,
+			);
+			path = QuotAppTests;
+			sourceTree = "<group>";
+		};
+		FC886AE81954C1920036C5FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC886AE91954C1920036C5FF /* QuotAppTests-Info.plist */,
+				FC886AEA1954C1920036C5FF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC886AF71954C19F0036C5FF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC886AFE1955A1D10036C5FF /* IVPHomeViewController.xib */,
+				FC886B0D19573A7C0036C5FF /* IVPQuoteViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FC886AF81954C1AF0036C5FF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FC886AFC1955A1D10036C5FF /* IVPHomeViewController.h */,
+				FC886AFD1955A1D10036C5FF /* IVPHomeViewController.m */,
+				FC886B0B19573A7C0036C5FF /* IVPQuoteViewController.h */,
+				FC886B0C19573A7C0036C5FF /* IVPQuoteViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FC886AF91954C1B90036C5FF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FC886B1019573AC40036C5FF /* IVPQuoteModel.h */,
+				FC886B1119573AC40036C5FF /* IVPQuoteModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		FC886B021956F8120036C5FF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FC886B071957163F0036C5FF /* Q-Button.png */,
+				FC886B081957163F0036C5FF /* Q-Button@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC886AC41954C1920036C5FF /* QuotApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC886AF11954C1920036C5FF /* Build configuration list for PBXNativeTarget "QuotApp" */;
+			buildPhases = (
+				FC886AC11954C1920036C5FF /* Sources */,
+				FC886AC21954C1920036C5FF /* Frameworks */,
+				FC886AC31954C1920036C5FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuotApp;
+			productName = QuotApp;
+			productReference = FC886AC51954C1920036C5FF /* QuotApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC886ADF1954C1920036C5FF /* QuotAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC886AF41954C1920036C5FF /* Build configuration list for PBXNativeTarget "QuotAppTests" */;
+			buildPhases = (
+				FC886ADC1954C1920036C5FF /* Sources */,
+				FC886ADD1954C1920036C5FF /* Frameworks */,
+				FC886ADE1954C1920036C5FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC886AE61954C1920036C5FF /* PBXTargetDependency */,
+			);
+			name = QuotAppTests;
+			productName = QuotAppTests;
+			productReference = FC886AE01954C1920036C5FF /* QuotAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC886ABD1954C1920036C5FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IVP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ignasi Vegas";
+				TargetAttributes = {
+					FC886ADF1954C1920036C5FF = {
+						TestTargetID = FC886AC41954C1920036C5FF;
+					};
+				};
+			};
+			buildConfigurationList = FC886AC01954C1920036C5FF /* Build configuration list for PBXProject "QuotApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC886ABC1954C1920036C5FF;
+			productRefGroup = FC886AC61954C1920036C5FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC886AC41954C1920036C5FF /* QuotApp */,
+				FC886ADF1954C1920036C5FF /* QuotAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC886AC31954C1920036C5FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC886B001955A1D10036C5FF /* IVPHomeViewController.xib in Resources */,
+				FC886B0F19573A7C0036C5FF /* IVPQuoteViewController.xib in Resources */,
+				FC886B091957163F0036C5FF /* Q-Button.png in Resources */,
+				FC886B0A1957163F0036C5FF /* Q-Button@2x.png in Resources */,
+				FC886AD31954C1920036C5FF /* InfoPlist.strings in Resources */,
+				FC886ADB1954C1920036C5FF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC886ADE1954C1920036C5FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC886AEC1954C1920036C5FF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC886AC11954C1920036C5FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC886AD91954C1920036C5FF /* IVPAppDelegate.m in Sources */,
+				FC886AD51954C1920036C5FF /* main.m in Sources */,
+				FC886AFF1955A1D10036C5FF /* IVPHomeViewController.m in Sources */,
+				FC886B1219573AC40036C5FF /* IVPQuoteModel.m in Sources */,
+				FC886B0E19573A7C0036C5FF /* IVPQuoteViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC886ADC1954C1920036C5FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC886AEE1954C1920036C5FF /* QuotAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC886AE61954C1920036C5FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC886AC41954C1920036C5FF /* QuotApp */;
+			targetProxy = FC886AE51954C1920036C5FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC886AD11954C1920036C5FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC886AD21954C1920036C5FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FC886AEA1954C1920036C5FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC886AEB1954C1920036C5FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC886AEF1954C1920036C5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC886AF01954C1920036C5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC886AF21954C1920036C5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuotApp/QuotApp-Prefix.pch";
+				INFOPLIST_FILE = "QuotApp/QuotApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC886AF31954C1920036C5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuotApp/QuotApp-Prefix.pch";
+				INFOPLIST_FILE = "QuotApp/QuotApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FC886AF51954C1920036C5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QuotApp.app/QuotApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuotApp/QuotApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "QuotAppTests/QuotAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FC886AF61954C1920036C5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QuotApp.app/QuotApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuotApp/QuotApp-Prefix.pch";
+				INFOPLIST_FILE = "QuotAppTests/QuotAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC886AC01954C1920036C5FF /* Build configuration list for PBXProject "QuotApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC886AEF1954C1920036C5FF /* Debug */,
+				FC886AF01954C1920036C5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC886AF11954C1920036C5FF /* Build configuration list for PBXNativeTarget "QuotApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC886AF21954C1920036C5FF /* Debug */,
+				FC886AF31954C1920036C5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC886AF41954C1920036C5FF /* Build configuration list for PBXNativeTarget "QuotAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC886AF51954C1920036C5FF /* Debug */,
+				FC886AF61954C1920036C5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC886ABD1954C1920036C5FF /* Project object */;
+}
