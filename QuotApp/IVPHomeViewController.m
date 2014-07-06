@@ -91,13 +91,45 @@
 #pragma mark - Utils
 
 -(void) getQuote{
-    IVPQuoteModel *quote = [[IVPQuoteModel alloc] initWithContent:@"Ser el hombre más rico en el cementerio no me importa... Ir a la cama por la noche diciendo que hemos hecho algo maravilloso... ESO es lo que me importa"
-                                                           author:@"Steve Jobs"
-                                                         category:@"Motivación"];
     
-    IVPQuoteViewController *quoteVC = [[IVPQuoteViewController alloc] initWithModel:quote];
+    NSURL *URL = [NSURL URLWithString:@"http://localhost:3000/api/v1/quotes/discover"];
     
-    [self.navigationController pushViewController:quoteVC animated:YES];
+    // Initialize Request Operation
+    AFHTTPRequestOperation *requestOperation = [[AFHTTPRequestOperation alloc] initWithRequest:[NSURLRequest requestWithURL:URL]];
+    
+    // Configure Request Operation
+    [requestOperation setResponseSerializer:[AFJSONResponseSerializer serializer]];
+    [requestOperation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
+        // Process Response Object
+        NSLog(@"Response: %@", responseObject);
+        NSDictionary *response = (NSDictionary *) responseObject;
+        
+        
+        IVPQuoteModel *quote = [[IVPQuoteModel alloc] initWithContent:response[@"data"][@"content"]
+                                                               author:response[@"data"][@"author"]
+                                                             category:response[@"data"][@"category"]];
+        
+        IVPQuoteViewController *quoteVC = [[IVPQuoteViewController alloc] initWithModel:quote];
+        
+        [self.navigationController pushViewController:quoteVC animated:YES];
+        
+        
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Error Retrieving Weather"
+                                                            message:[error localizedDescription]
+                                                           delegate:nil
+                                                  cancelButtonTitle:@"Ok"
+                                                  otherButtonTitles:nil];
+        [alertView show];
+    }];
+    
+    // Start Request Operation
+    [requestOperation start];
+    
+    
+    
+    
+    
     
     
     
