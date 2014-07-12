@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface IVPHomeViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityView;
 
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 @end
