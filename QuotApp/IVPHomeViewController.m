@@ -84,14 +84,15 @@
 
 - (void) touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event{
     
-    
+    [self.view setUserInteractionEnabled:FALSE];
     
     [self getQuote:^(IVPQuoteModel *quote){
         
         // Parar el activity view
         [self.imageView setHidden:NO];
         [self.activityView stopAnimating];
-        
+        [self.view setUserInteractionEnabled:TRUE];
+
         
         IVPQuoteViewController *quoteVC = [[IVPQuoteViewController alloc] initWithModel:quote];
         
@@ -150,6 +151,12 @@
                 [alertView show];
             });
             
+            dispatch_async(dispatch_get_main_queue(), ^{
+                // Parar el activity view
+                [self.imageView setHidden:NO];
+                [self.activityView stopAnimating];
+                [self.view setUserInteractionEnabled:TRUE];
+            });
             
             
         }];
