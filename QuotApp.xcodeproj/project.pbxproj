@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC596A141BBB95E7001CF652 /* quote.png in Resources */ = {isa = PBXBuildFile; fileRef = FC596A121BBB95E7001CF652 /* quote.png */; };
+		FC596A151BBB95E7001CF652 /* quote@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC596A131BBB95E7001CF652 /* quote@2x.png */; };
+		FC596A1C1BBB99D3001CF652 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FC596A181BBB99D3001CF652 /* logo.png */; };
+		FC596A1D1BBB99D3001CF652 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC596A191BBB99D3001CF652 /* logo@2x.png */; };
+		FC596A201BBB9BE3001CF652 /* Icon_image.png in Resources */ = {isa = PBXBuildFile; fileRef = FC596A1E1BBB9BE3001CF652 /* Icon_image.png */; };
+		FC596A211BBB9BE3001CF652 /* Icon_image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC596A1F1BBB9BE3001CF652 /* Icon_image@2x.png */; };
+		FC596A241BBB9FDF001CF652 /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = FC596A221BBB9FDF001CF652 /* share.png */; };
+		FC596A251BBB9FDF001CF652 /* share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC596A231BBB9FDF001CF652 /* share@2x.png */; };
 		FC886AC91954C1920036C5FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC886AC81954C1920036C5FF /* Foundation.framework */; };
 		FC886ACB1954C1920036C5FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC886ACA1954C1920036C5FF /* CoreGraphics.framework */; };
 		FC886ACD1954C1920036C5FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC886ACC1954C1920036C5FF /* UIKit.framework */; };
@@ -21,8 +29,6 @@
 		FC886AEE1954C1920036C5FF /* QuotAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC886AED1954C1920036C5FF /* QuotAppTests.m */; };
 		FC886AFF1955A1D10036C5FF /* IVPHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC886AFD1955A1D10036C5FF /* IVPHomeViewController.m */; };
 		FC886B001955A1D10036C5FF /* IVPHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC886AFE1955A1D10036C5FF /* IVPHomeViewController.xib */; };
-		FC886B091957163F0036C5FF /* Q-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = FC886B071957163F0036C5FF /* Q-Button.png */; };
-		FC886B0A1957163F0036C5FF /* Q-Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC886B081957163F0036C5FF /* Q-Button@2x.png */; };
 		FC886B0E19573A7C0036C5FF /* IVPQuoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC886B0C19573A7C0036C5FF /* IVPQuoteViewController.m */; };
 		FC886B0F19573A7C0036C5FF /* IVPQuoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC886B0D19573A7C0036C5FF /* IVPQuoteViewController.xib */; };
 		FC886B1219573AC40036C5FF /* IVPQuoteModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FC886B1119573AC40036C5FF /* IVPQuoteModel.m */; };
@@ -43,6 +49,8 @@
 		FC8D99041969E680004B5F77 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8D98F11969E680004B5F77 /* UIProgressView+AFNetworking.m */; };
 		FC8D99051969E680004B5F77 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8D98F31969E680004B5F77 /* UIRefreshControl+AFNetworking.m */; };
 		FC8D99061969E680004B5F77 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8D98F51969E680004B5F77 /* UIWebView+AFNetworking.m */; };
+		FCF5D16B1B31F9CE0042FF9A /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = FCF5D1691B31F9CE0042FF9A /* button.png */; };
+		FCF5D16C1B31F9CE0042FF9A /* button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCF5D16A1B31F9CE0042FF9A /* button@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +64,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC596A121BBB95E7001CF652 /* quote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quote.png; sourceTree = "<group>"; };
+		FC596A131BBB95E7001CF652 /* quote@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quote@2x.png"; sourceTree = "<group>"; };
+		FC596A181BBB99D3001CF652 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		FC596A191BBB99D3001CF652 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		FC596A1E1BBB9BE3001CF652 /* Icon_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_image.png; sourceTree = "<group>"; };
+		FC596A1F1BBB9BE3001CF652 /* Icon_image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon_image@2x.png"; sourceTree = "<group>"; };
+		FC596A221BBB9FDF001CF652 /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
+		FC596A231BBB9FDF001CF652 /* share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share@2x.png"; sourceTree = "<group>"; };
 		FC886AC51954C1920036C5FF /* QuotApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuotApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC886AC81954C1920036C5FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FC886ACA1954C1920036C5FF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -75,8 +91,6 @@
 		FC886AFC1955A1D10036C5FF /* IVPHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IVPHomeViewController.h; sourceTree = "<group>"; };
 		FC886AFD1955A1D10036C5FF /* IVPHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IVPHomeViewController.m; sourceTree = "<group>"; };
 		FC886AFE1955A1D10036C5FF /* IVPHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IVPHomeViewController.xib; sourceTree = "<group>"; };
-		FC886B071957163F0036C5FF /* Q-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Q-Button.png"; sourceTree = "<group>"; };
-		FC886B081957163F0036C5FF /* Q-Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Q-Button@2x.png"; sourceTree = "<group>"; };
 		FC886B0B19573A7C0036C5FF /* IVPQuoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IVPQuoteViewController.h; sourceTree = "<group>"; };
 		FC886B0C19573A7C0036C5FF /* IVPQuoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IVPQuoteViewController.m; sourceTree = "<group>"; };
 		FC886B0D19573A7C0036C5FF /* IVPQuoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IVPQuoteViewController.xib; sourceTree = "<group>"; };
@@ -118,6 +132,8 @@
 		FC8D98F31969E680004B5F77 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		FC8D98F41969E680004B5F77 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		FC8D98F51969E680004B5F77 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		FCF5D1691B31F9CE0042FF9A /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		FCF5D16A1B31F9CE0042FF9A /* button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,8 +268,16 @@
 		FC886B021956F8120036C5FF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FC886B071957163F0036C5FF /* Q-Button.png */,
-				FC886B081957163F0036C5FF /* Q-Button@2x.png */,
+				FCF5D1691B31F9CE0042FF9A /* button.png */,
+				FC596A121BBB95E7001CF652 /* quote.png */,
+				FC596A181BBB99D3001CF652 /* logo.png */,
+				FC596A1E1BBB9BE3001CF652 /* Icon_image.png */,
+				FC596A1F1BBB9BE3001CF652 /* Icon_image@2x.png */,
+				FC596A221BBB9FDF001CF652 /* share.png */,
+				FC596A231BBB9FDF001CF652 /* share@2x.png */,
+				FC596A191BBB99D3001CF652 /* logo@2x.png */,
+				FC596A131BBB95E7001CF652 /* quote@2x.png */,
+				FCF5D16A1B31F9CE0042FF9A /* button@2x.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -386,12 +410,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC596A1D1BBB99D3001CF652 /* logo@2x.png in Resources */,
+				FC596A141BBB95E7001CF652 /* quote.png in Resources */,
+				FC596A1C1BBB99D3001CF652 /* logo.png in Resources */,
+				FCF5D16B1B31F9CE0042FF9A /* button.png in Resources */,
 				FC886B001955A1D10036C5FF /* IVPHomeViewController.xib in Resources */,
 				FC886B0F19573A7C0036C5FF /* IVPQuoteViewController.xib in Resources */,
-				FC886B091957163F0036C5FF /* Q-Button.png in Resources */,
-				FC886B0A1957163F0036C5FF /* Q-Button@2x.png in Resources */,
 				FC886AD31954C1920036C5FF /* InfoPlist.strings in Resources */,
+				FC596A201BBB9BE3001CF652 /* Icon_image.png in Resources */,
+				FCF5D16C1B31F9CE0042FF9A /* button@2x.png in Resources */,
+				FC596A211BBB9BE3001CF652 /* Icon_image@2x.png in Resources */,
 				FC886ADB1954C1920036C5FF /* Images.xcassets in Resources */,
+				FC596A151BBB95E7001CF652 /* quote@2x.png in Resources */,
+				FC596A251BBB9FDF001CF652 /* share@2x.png in Resources */,
+				FC596A241BBB9FDF001CF652 /* share.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

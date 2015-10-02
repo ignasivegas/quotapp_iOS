@@ -6,11 +6,15 @@
 //  Copyright (c) 2014 Ignasi Vegas. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 @interface IVPHomeViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityView;
 
-@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) IBOutlet UIImageView *button;
+@property (weak, nonatomic) IBOutlet UIImageView *logo;
+@property (weak, nonatomic) IBOutlet UIImageView *icon_image;
+
+@property (assign) BOOL animating;
 
 @end

@@ -45,9 +45,10 @@
 - (void) viewWillAppear:(BOOL)animated
 {
     
-    self.view.backgroundColor = [UIColor colorWithRed:254.0/255.0 green:254.0/255.0 blue:244.0/255.0 alpha:1.0];
+    self.view.backgroundColor = [UIColor colorWithRed:0.75 green:0.91 blue:1 alpha:1];
+
     
-    UIColor *textColor = [UIColor colorWithRed:79.0/255.0 green:134.0/255.0 blue:173.0/255.0 alpha:1.0];
+    UIColor *textColor = [UIColor colorWithRed:95.0/255.0 green:95.0/255.0 blue:95.0/255.0 alpha:1.0];
     self.author.textColor = textColor;
     self.content.textColor = textColor;
     
