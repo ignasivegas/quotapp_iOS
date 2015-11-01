@@ -1,5 +1,5 @@
 # quotapp_iOS
-Quotapp iOS 
+Quotapp iOS - The best inspirational quotes
 
 - Backend: https://github.com/ignasivegas/quotapp_backend Rails & MySQL
 
