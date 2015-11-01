@@ -68,6 +68,27 @@
 
 #pragma mark - Utils
 
+- (IBAction)shareButton:(UIBarButtonItem *)sender
+{
+
+    NSString *textToShare=[NSString stringWithFormat:@"%@ by %@ via @quotapp", self.model.content, self.model.author];
+    
+    NSArray *objectsToShare = @[textToShare];
+    
+    UIActivityViewController *activityVC = [[UIActivityViewController alloc] initWithActivityItems:objectsToShare applicationActivities:nil];
+    
+    NSArray *excludeActivities = @[UIActivityTypeAirDrop,
+                                   UIActivityTypePrint,
+                                   UIActivityTypeAssignToContact,
+                                   UIActivityTypeSaveToCameraRoll,
+                                   UIActivityTypePostToFlickr,
+                                   UIActivityTypePostToVimeo];
+    
+    activityVC.excludedActivityTypes = excludeActivities;
+    
+    [self presentViewController:activityVC animated:YES completion:nil];
+}
+
 -(void) syncModelWithView{
     
     self.content.text = self.model.content;

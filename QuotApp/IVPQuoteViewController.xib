@@ -34,19 +34,15 @@
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I2I-WI-pJf">
-                    <rect key="frame" x="17" y="385" width="120" height="120"/>
-                    <animations/>
-                    <state key="normal" title="Button" image="button.png">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2dw-jI-i0l">
-                    <rect key="frame" x="179" y="385" width="120" height="120"/>
+                    <rect key="frame" x="99" y="364" width="120" height="120"/>
                     <animations/>
                     <state key="normal" title="Button" image="share.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="shareButton:" destination="-2" eventType="touchUpInside" id="iXX-p6-SsV"/>
+                    </connections>
                 </button>
             </subviews>
             <animations/>
@@ -61,7 +57,6 @@
         </imageView>
     </objects>
     <resources>
-        <image name="button.png" width="272" height="272"/>
         <image name="quote.png" width="669" height="496"/>
         <image name="share.png" width="272" height="272"/>
     </resources>

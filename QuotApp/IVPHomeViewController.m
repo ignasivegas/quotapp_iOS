@@ -9,7 +9,6 @@
 #import "IVPHomeViewController.h"
 #import "IVPQuoteModel.h"
 #import "IVPQuoteViewController.h"
-#import "AFNetworking.h"
 
 @interface IVPHomeViewController ()
 
